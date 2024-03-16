@@ -1,35 +1,39 @@
-# MERRY CRIMBAS SISTER
+# Duplicate Finder
+This project was initially created as a Christmas present for my sister, hence the less than professional tone here. Please do forgive me for keeping the text mostly as is, and continuing the tone in this little introduction. I think I've gotten rid of most of the swears, but even the sharpest eye is dulled by time. By which I mean it's getting late and I'm sleepy, not that I'm above 70.
 
-## An introduction
-### Okay, first off
+## First off
 If you're using Visual Studio Code, take a look in the upper right corner. There should be a little symbol with a magnifying glass, as shown below. Click on it and you should be able to view this file much more comfortably. 
 
 ![VS Code markdown viewer](resources/vsCodeMdViewer.png)
 
-### What the fuck is this?
+## What is this?
 I made a program for you that finds duplicate files! This took so much longer than I thought it would, which is kind of just how programming works, so it's not entirely finished. But it works! Mostly.
 
 This README file is meant to show you how to use this program, and explain a little bit about what's going on. I'll work on it a bit more in future and push updates to github. I'll show you how to pull those changes to your local machine, but for now this little zipfile will have to do.
 
 Some of the stuff in here is a little difficult to understand if you're new to Python, let alone if you're new to programming. I fucking struggled, I can tell you that. For now, I'll give you an overview. Feel free to copy tis folder, paste it somewhere else, and mess around with it!
 
-## How do I use this nerd shit?
+## How do I use it?
 
-Good question! You already have Python installed on your computer, so that's the first step taken care of. What's next?
+Good question! You already have Python installed on your computer (I did that for you), so that's the first step taken care of. What's next?
 
 In order to use this program, you're going to have to get a little bit of familiarity with the windows command line, also called the terminal. Be aware, I'm using Windows 11 so the screenshots included may be a little different than what you see, but the things you type will be the same.
 
 1. type "Powershell" into your start menu and click on the app that shows up. It looks like this:
-![Poweshell Icon](resources/poweshellIcon.png)
+
+   ![Poweshell Icon](resources/poweshellIcon.png)
 2. When you open Powershell, it should give you a blank window with a blinking cursor next to a path that says something like ```C:\\Users\\TungoTheHorseGirl```
 3. Navigate to the folder you extracted the zip file to. You can do this by typing ```cd <WHEREVER_YOU_SAVED_THIS_STUFF>```. Take a look below for an example
-![changing directory in the terminal](resources/PS-cd-to-directory.png)
+
+   ![changing directory in the terminal](resources/PS-cd-to-directory.png)
    1. A simpler way of doing this is to open file explorer in the folder you extracted the zip to, right click in the white space and click the option that says something like "open in terminal"
 4. Type ```python find_duplicates.py <FOLDER YOU WANT TO FIND DUPLICATES IN>```
-![Running the script](resources/running-the-script.png)
+
+   ![Running the script](resources/running-the-script.png)
    1. Remember, this has to be the *full path* to the folder, including all the ```C:\\Users\\...``` stuff. It won't work with just the name of the folder.
 5. Press enter. That's it, you've done it. If it doesn't work, then that's on me. It should give you an output something like this:
-![Results](resources/results.png)
+
+   ![Results](resources/results.png)
 
 ### Some things to note
 
