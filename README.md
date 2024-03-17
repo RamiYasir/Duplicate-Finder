@@ -11,7 +11,7 @@ I made a program for you that finds duplicate files! This took so much longer th
 
 This README file is meant to show you how to use this program, and explain a little bit about what's going on. I'll work on it a bit more in future and push updates to github. I'll show you how to pull those changes to your local machine, but for now this little zipfile will have to do.
 
-Some of the stuff in here is a little difficult to understand if you're new to Python, let alone if you're new to programming. I fucking struggled, I can tell you that. For now, I'll give you an overview. Feel free to copy tis folder, paste it somewhere else, and mess around with it!
+Some of the stuff in here is a little difficult to understand if you're new to Python, let alone if you're new to programming. For now, I'll give you an overview. Feel free to copy this folder, paste it somewhere else, and mess around with it!
 
 ## How do I use it?
 
